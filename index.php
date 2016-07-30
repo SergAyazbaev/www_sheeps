@@ -2,8 +2,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=win-1251">
 
+<?//<script type="text/javascript" src="ajax/jquery-1.5.1.min.js">?>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-  
+
 </script>
 <script type="text/javascript">   
 $(document).ready(function(){
@@ -122,7 +123,7 @@ $(document).ready(function(){
 <?
 if (!isset($_SESSION['number'])) $_SESSION['number']=1;
 
-/*  создаем четыре таблицы в базе "base1"
+/*
 DROP TABLE IF EXISTS `tab1`;
 
 CREATE TABLE IF NOT EXISTS `tab1` (
